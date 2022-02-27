@@ -123,4 +123,5 @@ for x in assignment_response.json()['courses']:
 #drops the table used for sorting the assignments      
 df = df.drop(['UNIXSTAMP'], axis=1)      
 print(df)
+
 input("Press Enter to continue...")
